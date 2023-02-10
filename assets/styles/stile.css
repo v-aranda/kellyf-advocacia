@@ -1,0 +1,150 @@
+:root{
+    --navbg: #654a38;
+    --hero: rgb(81, 71, 63);
+    --bgbase: #e8e2e2;
+    --fontcolor: rgb(80, 71, 60);
+    --fontcolor2: rgb(136, 107, 28);
+    --fontNav: rgb(235, 233, 227);
+      
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    color: var(--fontcolor);
+}
+
+
+.row{
+    margin: 0 !important;
+}
+.navbar{
+    transition: all 500ms;
+    position: fixed !important;
+    z-index: 2;
+    top: 0;
+}
+.nav-item a{
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.swiper-button-prev{
+    color: var(--fontNav) !important;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.swiper-button-next{
+    color: var(--fontNav) !important;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.navbar-brand{
+    width: 15vw;
+    min-width: 50px;
+    padding: 0
+}
+ ul{
+    font-size: larger;
+    
+ }
+
+ .bi{
+    color: var(--fontNav) !important;
+ }
+
+ .swiper {
+    width: 90%;
+    height: 60vh;
+    min-height: 300px;
+  }
+ .swiper2 {
+    width: 90%;
+    height: 60vh;
+    min-height: 300px;
+  }
+.swiper-slide{
+    background-size: cover;
+    background-position: center;
+}
+
+
+#hero{
+    height: 100vh; 
+    background-color: var(--hero);
+    background-image: url(../img/Hero.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+#hero div{
+    color: var(--bgbase);
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+
+}
+
+#QuemSomos{
+    padding-block: 92px;
+    min-height: 75vh;
+    background-color: var(--bgbase);
+}
+
+#QuemSomos p{
+    font-size: 20px;
+    overflow: auto;
+}
+#AreaDeAtuacao{
+    padding-top: 92px;
+    background-image: url(../img/areasDeAtuaçãobg.png);
+    background-blend-mode: overlay;
+    background-color: rgb(142, 126, 133) !important;
+    background-size: cover;
+}
+.conteudo #box{
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: var(--fontcolor2);
+    background-color: var(--bgbase);
+    min-height: 600px;
+    display: block;
+    justify-content: center;
+}
+
+.conteudo li{
+    margin-top: 20px;
+}
+
+#Localizacao{
+    padding-block: 92px;
+    background-color: var(--bgbase);
+}
+#contact{
+    background-color: var(--navbg);
+}
+
+#redes i{
+    margin-inline: 5px;
+    border-radius: 100%;
+    border: 2px solid var(--fontNav);
+    padding: 8px 13px;
+}
+
+#redes{
+    border-bottom:1px solid var(--fontNav);
+    justify-content: center;
+}
+#redes a{
+    display: flex;
+    align-items: center;
+}
+#contact a{
+    text-align: center;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: var(--fontNav);
+    text-shadow: rgb(0 0 0) 1px 0 10px;
+    min-width: 25px;
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
+    
+}
